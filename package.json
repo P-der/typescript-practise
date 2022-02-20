@@ -11,15 +11,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/cuixiaorui/tdl-ts.git"
+    "url": "git+https://github.com/P-der/typescript-practise.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/cuixiaorui/tdl-ts/issues"
+    "url": "https://github.com/P-der/typescript-practise/issues"
   },
-  "homepage": "https://github.com/cuixiaorui/tdl-ts#readme",
+  "homepage": "https://github.com/P-der/typescript-practise#readme",
   "dependencies": {
     "@type-challenges/utils": "^0.1.1",
     "tsd": "^0.13.1"
