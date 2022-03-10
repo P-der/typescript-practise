@@ -2,10 +2,12 @@ lockfileVersion: 5.3
 
 specifiers:
   '@type-challenges/utils': ^0.1.1
+  pnpm: ^6.32.3
   tsd: ^0.13.1
 
 dependencies:
   '@type-challenges/utils': 0.1.1
+  pnpm: registry.npmmirror.com/pnpm/6.32.3
   tsd: 0.13.1
 
 packages:
@@ -1147,4 +1149,12 @@ packages:
     dependencies:
       camelcase: 5.3.1
       decamelize: 1.2.0
+    dev: false
+
+  registry.npmmirror.com/pnpm/6.32.3:
+    resolution: {integrity: sha512-lMQgROSwiUA+kt+suAPinjNwqevS1Iz0rppWNZ3jHhzeP07RFRQ+Ksai2OlAnM+YjlbHT9niQ4ICBVSqcdQ04w==, registry: http://registry.npm.taobao.org/, tarball: https://registry.npmmirror.com/pnpm/-/pnpm-6.32.3.tgz}
+    name: pnpm
+    version: 6.32.3
+    engines: {node: '>=12.17'}
+    hasBin: true
     dev: false
