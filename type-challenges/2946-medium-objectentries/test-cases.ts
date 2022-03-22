@@ -1,5 +1,5 @@
 import { Equal, Expect, ExpectFalse, NotEqual } from '@type-challenges/utils'
-
+type test = ObjectEntries<Partial<Model>>
 interface Model {
   name: string;
   age: number;

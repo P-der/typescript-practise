@@ -1,5 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
-
+type test = Diff<Foo, Bar>
 type Foo = {
   name: string
   age: string

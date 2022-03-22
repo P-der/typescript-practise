@@ -1,5 +1,5 @@
 import { Equal, IsTrue } from '@type-challenges/utils'
-
+type test = LengthOfString<"">
 type cases = [
   IsTrue<Equal<LengthOfString<"">, 0>>,
   IsTrue<Equal<LengthOfString<"1">, 1>>,

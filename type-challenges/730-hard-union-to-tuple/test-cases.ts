@@ -1,7 +1,7 @@
 import {Equal, Expect} from '@type-challenges/utils'
 
 type ExtractValuesOfTuple<T extends any[]> = T[keyof T & number]
-
+type test = UnionToTuple<'a' | 'b'>
 type cases = [
     Expect<Equal<UnionToTuple<'a' | 'b'>['length'], 2>>,
     Expect<Equal<ExtractValuesOfTuple<UnionToTuple<'a' | 'b'>>, 'a' | 'b'>>,

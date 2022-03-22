@@ -1,5 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
-
+type test = Merge<Foo, Bar>
 type Foo = {
   a: number;
   b: string;

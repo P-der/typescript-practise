@@ -1,5 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
-
+type test = Zip<[], []>
 type cases = [
   Expect<Equal<Zip<[], []>, []>>,
   Expect<Equal<Zip<[1, 2], [true, false]>, [[1, true], [2, false]]>>,

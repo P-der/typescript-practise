@@ -1,5 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils'
-
+type test = Chunk<[1, 2, 3], 1>
 type cases = [
   Expect<Equal<Chunk<[], 1>, []>>,
   Expect<Equal<Chunk<[1, 2, 3], 1>, [[1], [2], [3]]>>,

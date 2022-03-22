@@ -1,5 +1,5 @@
 import { Equal, Expect } from '@type-challenges/utils';
-
+type test = DropChar<'butter fly!', ''>
 type cases = [
   // @ts-expect-error
   Expect<Equal<DropChar<'butter fly!', ''>, 'butterfly!'>>,
